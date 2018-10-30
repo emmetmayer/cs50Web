@@ -1,8 +1,6 @@
---color: red;
-
 ul{
     font-size: 14px;
-    color: var(--color);
+    color: blue;
 }
 
 ol{
