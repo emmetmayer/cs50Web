@@ -1,0 +1,65 @@
+$background: darkturquoise;
+
+body
+{
+    background-color: $background;
+}
+
+#sidebar
+{
+    background-color: darkslateblue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}  
+
+#main
+{
+    height: 1000px;
+    margin: 10px;
+}
+
+#profile
+{
+    height: 55px;
+    display: inline-block;
+    background-color: darkmagenta;
+    border-radius: 5px;
+    float: bottom;
+}
+
+.profile-img
+{
+    height: 70%;
+    clip-path: circle(50% at center);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#profile-img-container
+{
+    background-color: white;
+    height: 70px;
+    float: left;
+}
+
+#username
+{
+    height: auto;
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#login-form
+{
+    align-self: center;
+    background-color: darkcyan;
+}
