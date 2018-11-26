@@ -42,7 +42,8 @@ body {
 
 #username {
   height: auto;
-  vertical-align: middle;
+  display: flex;
+  align-self: center;
   font-size: 15px;
   font-weight: bold;
   text-align: center;
@@ -50,8 +51,14 @@ body {
 }
 
 #login-form {
-  align-self: center;
+  text-align: center;
   background-color: darkcyan;
+  border-radius: 10px;
+}
+
+#login-helper {
+  height: 150px;
+  top: 100px;
 }
 
 /*# sourceMappingURL=homepage.css.map */
