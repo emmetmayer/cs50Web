@@ -1,9 +1,9 @@
-$darkShade: #0F1441;
-$darkAccent: #3569BB;
-$mainColor: #226A9C;
-$lightAccent: #31ADCE;
-$lightShade: #E4E8F0;
-$displayFont: 'Ubuntu', sans-serif;
+$darkShade: #1A1420;
+$darkAccent: #8953A2;
+$mainColor: #81609E;
+$lightAccent: #E4BA50;
+$lightShade: #FBFBFB;
+$displayFont: 'Montserrat', sans-serif;
 $bodyFont: 'Mukta Vaani', sans-serif;
 
 body
@@ -18,8 +18,8 @@ body
     height: auto;
     top: 0;
     bottom: 0;
-    margin: 20px 0px 20px 10px;
-    padding: 5px;
+    margin: 20px 20px 20px 5px;
+    padding: 6px;
     border-radius: 5px;
 }  
 
@@ -32,30 +32,32 @@ body
 #profile
 {
     height: 55px;
-    display: inline-block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: $darkAccent;
     border-radius: 5px;
-    float: bottom;
+    float: top;
+    padding: 0px;
 }
 
 .profile-img
 {
     height: 70%;
     float: left;
+    margin-left: 5%;
     clip-path: circle(50% at center);
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    vertical-align: middle;
 }
 
 #username
 {
+    vertical-align: middle;
     height: auto;
-    float: right;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: auto;
+    position: relative;
+    margin-left: 27%;
     margin-right: auto;
     font-family: $displayFont;
     font-size: 18px;
@@ -101,8 +103,8 @@ body
 
 #login-form input[type="checkbox"]
 {
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 
 #login-form button
@@ -111,7 +113,7 @@ body
     text-align: center;
     font-family: $bodyFont;
     font-size: 18px;
-    color: $lightShade;
+    color: $darkShade;
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -126,6 +128,7 @@ body
 
 #login-form button:hover
 {
+    color: $lightShade;
     background-color: $darkAccent;
     border-color: $lightAccent;
 }

@@ -1,15 +1,15 @@
 body {
-  background-color: #0F1441;
+  background-color: #1A1420;
 }
 
 #sidebar {
-  background-color: #E4E8F0;
+  background-color: #FBFBFB;
   position: fixed;
   height: auto;
   top: 0;
   bottom: 0;
-  margin: 20px 0px 20px 10px;
-  padding: 5px;
+  margin: 20px 20px 20px 5px;
+  padding: 6px;
   border-radius: 5px;
 }
 
@@ -20,33 +20,35 @@ body {
 
 #profile {
   height: 55px;
-  display: inline-block;
-  background-color: #3569BB;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #8953A2;
   border-radius: 5px;
-  float: bottom;
+  float: top;
+  padding: 0px;
 }
 
 .profile-img {
   height: 70%;
   float: left;
+  margin-left: 5%;
   clip-path: circle(50% at center);
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  vertical-align: middle;
 }
 
 #username {
+  vertical-align: middle;
   height: auto;
-  float: right;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: auto;
+  position: relative;
+  margin-left: 27%;
   margin-right: auto;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-align: center;
-  color: #E4E8F0;
+  color: #FBFBFB;
 }
 
 #login-box {
@@ -54,22 +56,22 @@ body {
   margin-right: auto;
   margin-top: 10%;
   height: 400px;
-  background-color: #226A9C;
+  background-color: #81609E;
   border-radius: 10px;
 }
 
 #login-title {
   text-align: center;
   margin-top: 25px;
-  font-family: "Ubuntu", sans-serif;
-  color: #E4E8F0;
+  font-family: "Montserrat", sans-serif;
+  color: #FBFBFB;
   font-size: 25px;
 }
 
 #login-form {
   padding: 10px;
   font-family: "Mukta Vaani", sans-serif;
-  color: #E4E8F0;
+  color: #FBFBFB;
 }
 
 #login-form input[type=text], input[type=password] {
@@ -81,8 +83,8 @@ body {
 }
 
 #login-form input[type=checkbox] {
-  margin-top: 15px;
-  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 #login-form button {
@@ -90,22 +92,23 @@ body {
   text-align: center;
   font-family: "Mukta Vaani", sans-serif;
   font-size: 18px;
-  color: #E4E8F0;
+  color: #1A1420;
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
   border-radius: 5px;
-  border-color: #3569BB;
+  border-color: #8953A2;
   border-style: double;
   border-width: medium;
-  background-color: #31ADCE;
+  background-color: #E4BA50;
 }
 
 #login-form button:hover {
-  background-color: #3569BB;
-  border-color: #31ADCE;
+  color: #FBFBFB;
+  background-color: #8953A2;
+  border-color: #E4BA50;
 }
 
 /*# sourceMappingURL=homepage.css.map */
