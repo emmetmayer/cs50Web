@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="800"
-   height="350"
-   viewBox="0 0 211.66666 92.604174"
+   width="765.16235"
+   height="268.23975"
+   viewBox="0 0 202.4492 70.971772"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.45254834"
-     inkscape:cx="518.93917"
-     inkscape:cy="531.87385"
+     inkscape:cx="518.93918"
+     inkscape:cy="184.94854"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,7 +40,11 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     units="px" />
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -57,7 +61,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-204.39535)">
+     transform="translate(2.8572235e-6,-204.39534)">
     <g
        aria-label="DICE"
        transform="matrix(0.3164058,0,0,0.3164058,52.999366,41.632708)"
@@ -86,7 +90,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';stroke-width:0.26458332" /></text>
     <g
        id="g833"
-       transform="translate(1.4622348,206.54053)">
+       transform="translate(-3.1464999,195.72432)">
       <circle
          transform="rotate(45)"
          r="14.698696"
