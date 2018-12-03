@@ -87,9 +87,10 @@ body {
   margin-bottom: 35px;
 }
 
-#login-form button {
+#login-form .button {
   width: 70%;
   text-align: center;
+  text-decoration: none;
   font-family: "Mukta Vaani", sans-serif;
   font-size: 18px;
   color: #1A1420;
@@ -105,8 +106,9 @@ body {
   background-color: #E4BA50;
 }
 
-#login-form button:hover {
+#login-form .button:hover {
   color: #FBFBFB;
+  text-decoration: none;
   background-color: #8953A2;
   border-color: #E4BA50;
 }

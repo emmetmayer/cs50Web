@@ -107,10 +107,11 @@ body
     margin-bottom: 35px;
 }
 
-#login-form button
+#login-form .button
 {
     width: 70%;
     text-align: center;
+    text-decoration: none;
     font-family: $bodyFont;
     font-size: 18px;
     color: $darkShade;
@@ -126,9 +127,10 @@ body
     background-color: $lightAccent;
 }
 
-#login-form button:hover
+#login-form .button:hover
 {
     color: $lightShade;
+    text-decoration: none;
     background-color: $darkAccent;
     border-color: $lightAccent;
 }
