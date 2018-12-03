@@ -2,6 +2,11 @@ body {
   background-color: #1A1420;
 }
 
+#main {
+  height: 1000px;
+  margin: 10px;
+}
+
 #sidebar {
   background-color: #FBFBFB;
   position: fixed;
@@ -10,12 +15,16 @@ body {
   bottom: 0;
   margin: 20px 20px 20px 5px;
   padding: 6px;
+  padding-top: 0px;
   border-radius: 5px;
 }
 
-#main {
-  height: 1000px;
+#sidebar-logo {
+  display: block;
   margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 #profile {
@@ -40,7 +49,6 @@ body {
 }
 
 #username {
-  vertical-align: middle;
   height: auto;
   position: relative;
   margin-left: 27%;
@@ -55,14 +63,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
-  height: 400px;
+  height: auto;
   background-color: #81609E;
   border-radius: 10px;
 }
 
+#login-logo {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 #login-title {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 15px;
+  margin-bottom: -10px;
   font-family: "Montserrat", sans-serif;
   color: #FBFBFB;
   font-size: 25px;
@@ -78,7 +95,7 @@ body {
   font-family: "Mukta Vaani", sans-serif;
   width: 100%;
   padding: 5px;
-  margin-top: 40px;
+  margin-top: 35px;
   border-radius: 5px;
 }
 
@@ -96,6 +113,7 @@ body {
   color: #1A1420;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
