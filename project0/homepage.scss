@@ -28,6 +28,7 @@ body
     padding: 6px;
     padding-top: 0px; 
     border-radius: 5px;
+    box-shadow: 5px 5px $lightAccent;
 }  
 
 #sidebar-logo
@@ -41,7 +42,7 @@ body
 
 #profile
 {
-    height: 55px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -72,6 +73,20 @@ body
     font-size: 18px;
     text-align: center;
     color: $lightShade;
+}
+
+#balance
+{
+    float: left;
+}
+
+.sidebar-item
+{
+    color: $darkShade;
+    font-family: $displayFont;
+    margin-top: 13px;
+    padding-bottom: 11px;
+    border-bottom: solid 2px $darkAccent;
 }
 
 #login-box
