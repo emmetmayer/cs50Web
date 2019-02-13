@@ -9,26 +9,25 @@ $bodyFont: 'Mukta Vaani', sans-serif;
 body
 {
     background-color: $darkShade;
+    height: 100vh;
 }
 
-#main
+.main
 {
-    height: 1000px;
-    margin: 10px;
+    margin: 0px;
+    height: 100vh;
+    padding: 10px;
 }
-
 #sidebar
 {
     background-color: $lightShade;
-    position: fixed;
-    height: auto;
+    height: 100%;
     top: 0;
     bottom: 0;
-    margin: 20px 20px 20px 5px;
+    margin: inherit;
     padding: 6px;
     padding-top: 0px; 
     border-radius: 5px;
-    box-shadow: 5px 5px $lightAccent;
 }  
 
 #sidebar-logo
@@ -96,6 +95,28 @@ body
     margin-bottom: 10px;
     padding-bottom: 15px;
     border-bottom: solid 2px $darkAccent;
+}
+
+.contentHolder
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.modePanel
+{
+    float: left;
+    background-color: $darkAccent;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    border-radius: 5px;
+    color: $lightShade;
+    font-size: 300%;
+    font-weight: 500;
+    text-align: center;
 }
 
 #login-box
@@ -168,7 +189,7 @@ body
     border-color: $darkAccent;
     border-style: double;
     border-width: medium;
-    background-color: $lightAccent;
+    background-color: $lightShade;
 }
 
 #login-form .button:hover
@@ -176,6 +197,6 @@ body
     color: $lightShade;
     text-decoration: none;
     background-color: $darkAccent;
-    border-color: $lightAccent;
+    border-color: $lightShade;
 }
 

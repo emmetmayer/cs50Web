@@ -1,23 +1,23 @@
 body {
   background-color: #1A1420;
+  height: 100vh;
 }
 
-#main {
-  height: 1000px;
-  margin: 10px;
+.main {
+  margin: 0px;
+  height: 100vh;
+  padding: 10px;
 }
 
 #sidebar {
   background-color: #FBFBFB;
-  position: fixed;
-  height: auto;
+  height: 100%;
   top: 0;
   bottom: 0;
-  margin: 20px 20px 20px 5px;
+  margin: inherit;
   padding: 6px;
   padding-top: 0px;
   border-radius: 5px;
-  box-shadow: 5px 5px #E4BA50;
 }
 
 #sidebar-logo {
@@ -79,6 +79,27 @@ body {
   margin-bottom: 10px;
   padding-bottom: 15px;
   border-bottom: solid 2px #7b43ac;
+}
+
+.contentHolder {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.modePanel {
+  float: left;
+  background-color: #7b43ac;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  border-radius: 5px;
+  color: #FBFBFB;
+  font-size: 300%;
+  font-weight: 500;
+  text-align: center;
 }
 
 #login-box {
@@ -143,14 +164,14 @@ body {
   border-color: #7b43ac;
   border-style: double;
   border-width: medium;
-  background-color: #E4BA50;
+  background-color: #FBFBFB;
 }
 
 #login-form .button:hover {
   color: #FBFBFB;
   text-decoration: none;
   background-color: #7b43ac;
-  border-color: #E4BA50;
+  border-color: #FBFBFB;
 }
 
 /*# sourceMappingURL=homepage.css.map */
