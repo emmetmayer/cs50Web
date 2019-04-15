@@ -108,6 +108,7 @@ body
     margin: 0;
     margin-left: 0px;
     padding: 0px;
+    padding-right: 10px;
     padding-left: 10px;
 }
 
@@ -148,7 +149,9 @@ body
 .profilePanel
 {
     background-color: $lightShade;
-    
+    border-radius: 5px;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 #login-box
